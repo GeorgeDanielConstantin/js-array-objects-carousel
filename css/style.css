@@ -1,0 +1,73 @@
+.carosello-container {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carosello {
+  display: flex;
+  width: 80%;
+  height: 80%;
+}
+
+.main-carosello {
+  width: 80%;
+  display: inline-block;
+}
+
+.carosello-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.thumb {
+  height: 20vh;
+}
+
+.main {
+  position: relative;
+}
+.text {
+  position: absolute;
+  bottom: 0;
+  color: white;
+}
+
+.main-carosello .main.active {
+  display: block;
+}
+.main-carosello .main {
+  display: none;
+}
+
+.main-carosello img {
+  height: 80vh;
+}
+
+#next {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  color: white;
+}
+
+#prev {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  color: white;
+}
+
+.main-carosello {
+  position: relative;
+}
